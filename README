@@ -1,0 +1,38 @@
+# Fastify Project with TypeScript
+
+This project is a Fastify-based API built with TypeScript. It includes CRUD operations for `User`, `Post`, and `Profile` entities, and uses Prisma as the ORM.
+
+## Prerequisites
+
+Ensure you have the following installed on your system:
+
+- [Node.js](https://nodejs.org/) (v18 or higher recommended)
+- [npm](https://www.npmjs.com/) or [yarn](https://yarnpkg.com/)
+- [Prisma CLI](https://www.prisma.io/docs/getting-started/quickstart)
+
+## Run the following commands to set up the project:
+
+Create a new directory and navigate into it
+
+```bash
+mkdir fastify-typescript-project
+cd fastify-typescript-project
+```
+
+Initialize a new Node.js project
+
+```bash
+npm init -y
+```
+
+Install Fastify and TypeScript dependencies
+
+```bash
+npm install fastify @fastify/autoload @fastify/cors @fastify/env @fastify/jwt @fastify/sensible @fastify/swagger @fastify/swagger-ui @fastify/type-provider-typebox @prisma/client fastify-plugin
+```
+
+Install development dependencies
+
+```bash
+npm install --save-dev typescript ts-node tsx nodemon eslint eslint-config-prettier eslint-config-standard-with-typescript prettier prisma rimraf @types/node
+```
